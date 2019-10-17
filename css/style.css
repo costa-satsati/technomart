@@ -1,0 +1,40 @@
+body {
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 17px;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fff;
+  background-color: #fff;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.main-header {
+  min-width: 960px;
+}
+.user-navigation {
+  background-color: #293449;
+}
+.popular {
+  background-color: #f9f5f0;
+}
+.service-delivery {
+  background-color: #f4f7f9;
+  color: black;
+}
+
+.first-footer-wrapper {
+  background-color: #32425c;
+}
+.second-footer-wrapper {
+  background-color: #293449;
+}
+.info {
+  color: black;
+}
