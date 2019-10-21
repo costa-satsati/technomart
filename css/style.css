@@ -114,7 +114,7 @@ a {
   background-image: url("../img/icon-bookmark.svg");
 }
 
-.icon-basket::before{
+.icon-basket::before {
   content: "";
   margin-right: 5px;
   vertical-align: middle;
@@ -248,7 +248,7 @@ a {
 }
 
 .popular a {
-margin: 10px;
+  margin: 10px;
 }
 
 .popular h3 {
@@ -332,13 +332,20 @@ margin: 10px;
 
 .popular-brand-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
+  padding: 0;
 }
 
 .popular-brand-list li {
-  /*outline: rgb(158, 255, 102) dashed;*/
-  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 218px;
+  height: 218px;
+  margin-top: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
 }
 
 .popular-brands {
@@ -392,7 +399,6 @@ margin: 10px;
 }
 
 .footer-social {
-
   list-style: none;
 }
 
