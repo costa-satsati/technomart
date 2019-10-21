@@ -247,8 +247,13 @@ a {
   margin-bottom: 10px;
 }
 
+.popular a {
+margin: 10px;
+}
+
 .popular h3 {
   color: #334867;
+  margin-left: 20px;
 }
 
 .popular-products {
