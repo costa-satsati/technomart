@@ -38,11 +38,18 @@ a {
 }
 
 .button {
-  font: inherit;
-  text-align: center;
+  display: block;
+  width: 240px;
+  padding: 13px 0;
+  
+  font-size: 16px;
+  line-height: 18px;
   color: #ffffff;
-  vertical-align: middle;
   text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+
+  border-radius: 3px;
   background-color: #ee3642;
   border: none;
 }
@@ -84,6 +91,7 @@ a {
 .order-navigation {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   list-style: none;
 }
 
@@ -209,27 +217,93 @@ a {
   margin-bottom: 10px;
 }
 
-.popular-product-item {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid #e3e3e3;
-}
-
 .popular-section-list {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 0;
 }
 
-.popular-section-list li {
-  /*outline: rgb(158, 255, 102) dashed;*/
-  width: 220px;
+.popular-product-item {
+  position: relative;
+  display: inline-block;
+  width: 218px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  
+  line-height: 20px;
+  font-weight: bold;
+  text-align: center;
+  
+  border: 1px solid #ccc;
+}
+
+.popular-product-item .image {
+  width: 218px;
+  height: 168px;
+}
+
+.popular-product-item .image img {
+  max-width: 100%;
+}
+
+.popular-product-item .title {
+  min-height: 40px;
+  color: #000;
+  padding: 0 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;    
+}
+
+.popular-product-item .discount {
+  min-height: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  
+  color: #999;
+  text-decoration: line-through;
+}
+
+.popular-product-item .price {
+  position: relative;
+  width: 80px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  
+  color: white;
+  background: #ee3643;
+  border-radius: 3px;
+}
+
+.popular-product-item .price:after {
+  content: "";
+  
+  position: absolute;
+  top: 0;
+  right: -20px;
+  
+  width: 0;
+  height: 0;
+  
+  border: 20px solid white;
+  border-left-color: #ee3643;
 }
 
 
+
+
 /* popular brands section */
+
+.popular-brand-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+.popular-brand-list li {
+  /*outline: rgb(158, 255, 102) dashed;*/
+  width: 220px;
+}
 
 .popular-brands {
   display: flex;
