@@ -59,6 +59,7 @@ a {
 }
 
 .top-logo {
+  box-sizing: content-box;
   text-align: center;
   width: 220px;
   height: 42px;
@@ -380,9 +381,18 @@ a {
   background-color: #293449;
 }
 
-.footer-social {
+.second-footer {
   display: flex;
+  justify-content: space-between;
+}
+
+.footer-social {
+
   list-style: none;
+}
+
+.footer-social a {
+  background-image: url("../img/shape-2-copy-4.png ");
 }
 
 .info {
