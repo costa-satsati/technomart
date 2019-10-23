@@ -571,6 +571,11 @@ a {
   margin-bottom: 10px;
 }
 
+
+.popular-button {
+  width:300px;
+  margin-right: 10px;
+}
 .popular h3 {
   font-size: 30pt;
   line-height: 30pt;
@@ -692,6 +697,7 @@ a {
 }
 
 .catalog-item .title {
+  color: black;
   min-height: 40px;
   padding: 0 25px;
   margin-top: 10px;
@@ -828,8 +834,10 @@ a {
 }
 
 .transport-companies li:before {
-  content: "--";
-  color: red;
+  content: "f";
+  padding: 2px;
+  background-color: red;
+  transform: rotate(20deg);
   text-indent: -5px;
 }
 
@@ -853,6 +861,14 @@ a {
 .first-footer,
 .second-footer {
   display: flex;
+}
+
+.second-footer ul {
+  list-style: none;
+}
+
+.second-footer a {
+  color: #f3c977;
 }
 
 .first-footer .top-logo {
