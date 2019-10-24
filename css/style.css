@@ -233,10 +233,9 @@ a {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-bottom: 121px;
-  padding: 0;
   list-style: none;
   background-color: #32425c;
   border-bottom: 5px solid #293449;
