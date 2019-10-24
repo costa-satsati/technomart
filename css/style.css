@@ -231,12 +231,12 @@ a {
 
 .main-navigation {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 0 auto;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 121px;
   padding: 0;
-  width: 100%;
   list-style: none;
   background-color: #32425c;
   border-bottom: 5px solid #293449;
@@ -584,7 +584,8 @@ a {
 
 .catalog-items {
   display: flex;
-  margin: 20px auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .catalog-item {
@@ -592,7 +593,7 @@ a {
   position: relative;
   display: inline-block;
   width: 218px;
-  margin-right: 20px;
+  
   margin-bottom: 20px;
   line-height: 20px;
   font-weight: bold;
@@ -903,4 +904,11 @@ a {
 
 .catalog-main-section {
   display: flex;
+  justify-content: space-between;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
 }
