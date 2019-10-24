@@ -182,7 +182,7 @@ a {
   background-image: url("../img/icon-phone.svg");
 }
 
-.adress {
+.adress-header {
   font-size: 14pt;
   line-height: 24pt;
   color: #293449;
@@ -857,6 +857,7 @@ a {
 .first-footer,
 .second-footer {
   display: flex;
+  justify-content: space-between;
 }
 
 .second-footer ul {
@@ -900,3 +901,8 @@ a {
   display: flex;
   list-style: none;
 }
+
+.footer-social a {
+  color:#212A3A ;
+}
+
