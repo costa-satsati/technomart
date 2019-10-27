@@ -712,7 +712,7 @@ a {
   z-index: 10;
 }
 
-.catalog-item .actions .buy, .catalog-item .actions .bookmark {
+.actions .buy, .actions .bookmark {
   display: block;
   width: 129px;
   margin: 0 auto;
@@ -723,9 +723,9 @@ a {
   border-bottom-color: #367315;
   border-radius: 3px;
   color: white;
+  font-family: 'Cuprum', 'Arial', sans-serif;
   font-size: 14px;
   font-weight: normal;
-  font-family: "Cuprum", sans-serif;
   line-height: 18px;
   text-decoration: none;
   text-transform: uppercase;
@@ -1241,22 +1241,24 @@ button .delivery-button:focus.delivery, button .warranty-button:focus .warranty,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100px;
+  width: 130px;
   list-style: none;
 }
 
 .footer-social li {
   min-width: 42px;
   min-height: 42px;
-  background-position: center;
-  background-image: url("../img/shape-2-copy-4.png");
-  background-repeat: no-repeat ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #212a3a;
 }
 
-.footer-social a {
-  width: 42;
- margin: auto;
+.footer-social li:hover, .footer-social li:active, .footer-social li:focus {
+  background-color: #ee3643;
 }
+
 /* extra inner page styles */
 
 .user-cabinet {
