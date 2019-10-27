@@ -1225,6 +1225,10 @@ button .delivery-button:focus.delivery, button .warranty-button:focus .warranty,
   list-style: none;
 }
 
+.footer-links a:hover, .our-email a:hover, .made-by a:hover{
+  text-decoration: underline;
+}
+
 .footer-links-nav a {
   color: #fff;
 }
