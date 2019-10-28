@@ -88,6 +88,10 @@ a {
   box-shadow: 0 5px 0 #b52933;
 }
 
+.top-logo:hover, .top-logo:focus {
+  background-color: #ca2c37;
+}
+
 .top-logo img {
   margin-top: 13px;
   height: 18px;
@@ -102,16 +106,20 @@ a {
   padding-right: 10px;
   padding-left: 48px;
   border: none;
+  color: white;
   background: none;
-  background-color: transparent;
   background-image: url("../img/icon-search.svg");
   background-repeat: no-repeat;
   background-position-x: 17px;
   background-position-y: 14px;
 }
 
-.searchBox::placeholder {
+.searchBox::-moz-placeholder, .searchBox::placeholder {
   color: white;
+}
+
+.searchBox:focus{
+  background-color: #fff;
 }
 
 .searchBox:focus {
@@ -161,6 +169,7 @@ a {
   display: inline-block;
   width: 14px;
   height: 16px;
+  opacity: 0.3;
   background-repeat: no-repeat;
   background-image: url("../img/icon-bookmark.svg");
 }
@@ -171,6 +180,7 @@ a {
   display: inline-block;
   width: 18px;
   height: 16px;
+  opacity: 0.3;
   background-repeat: no-repeat;
   background-image: url("../img/icon-cart.svg");
 }
@@ -667,6 +677,8 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 
 .catalog-item {
@@ -801,7 +813,7 @@ a {
 
 .popular-brand-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
