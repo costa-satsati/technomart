@@ -731,7 +731,7 @@ a {
   text-transform: uppercase;
 }
 
-.catalog-item .actions .bookmark {
+.actions .bookmark {
   color: #32425c;
   background: white;
   border-bottom-color: #63a63e;
