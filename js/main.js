@@ -74,7 +74,7 @@ var catalog = document.querySelector(".catalog-items");
 var popup2 = document.querySelector(".modal-cart");
 
 if (popup2) {
-    var close_cart = popup2.querySelector(".modal-cart-close");
+    var close_cart = popup2.querySelector(".modal-close");
 
     catalog.addEventListener("click", function (evt) {
         evt.preventDefault();
