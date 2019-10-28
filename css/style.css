@@ -723,7 +723,7 @@ a {
   border-bottom-color: #367315;
   border-radius: 3px;
   color: white;
-  font-family: 'Cuprum', 'Arial', sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
@@ -794,7 +794,6 @@ a {
 }
 
 .popular-section-list li {
-  /*outline: rgb(158, 255, 102) dashed;*/
   width: 220px;
 }
 
@@ -1905,7 +1904,7 @@ form .last-form {
   margin: 0;
   padding: 0;
   padding: 37px 80px;
-  background-image: url(../img/bg-modal.png);
+  background-image: url("../img/bg-modal.png");
   background-repeat: no-repeat;
 }
 
@@ -2241,7 +2240,7 @@ form .last-form {
   width: 66px;
   height: 66px;
   content: "";
-  background-image: url(../img/form-1.svg);
+  background-image: url("../img/form-1.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
