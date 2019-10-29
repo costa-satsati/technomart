@@ -230,6 +230,10 @@ a {
   padding-right: 30px;
 }
 
+.basket-notempty{
+  background-color: #ee3643;
+}
+
 .icon-bookmark::before {
   content: "";
   position: absolute;
