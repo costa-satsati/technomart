@@ -110,7 +110,7 @@ a {
 }
 
 .searchBox {
-  min-width: 270px;
+  min-width: 260px;
   margin: 0;
   padding: 0;
   padding-top: 11.5px;
@@ -176,7 +176,7 @@ a {
 }
 
 .order-navigation {
-  width: 450px;
+  min-width: 450px;
   margin: 0;
   padding: 0;
   align-items: center;
@@ -271,7 +271,7 @@ a {
 .login-nagivation {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 38px;
+  margin-bottom: 37px;
 }
 
 .shop-description {
@@ -293,8 +293,9 @@ a {
 }
 
 .tel-header {
-  display: inline-block;
-  padding: 9px 48px 9px 13px;
+  position: relative;
+  display: block;
+  padding: 10px 48px 10px 72px;
   margin-bottom: 3px;
   border: 3px solid #fff;
   font-size: 21px;
@@ -303,13 +304,15 @@ a {
 }
 
 .tel-header::before {
+  position: absolute;
   content: "";
-  margin-right: 40px;
+  top: 10px;
+  left: 14px;
   vertical-align: middle;
-  display: inline-block;
   width: 19px;
   height: 19px;
   background-image: url("../img/icon-phone.svg");
+  background-position: 0 0;
 }
 
 .adress-header {
@@ -328,31 +331,34 @@ a {
 }
 
 .user a {
+  display: block;
   padding-top: 13px;
   padding-bottom: 13px;
   color: #444444;
-  display: inline-block;
 }
 
 .login-item {
-  padding-right: 5px;
+  position: relative;
+  padding-right: 25px;
+  padding-left: 47px;
   font-size: 21px;
   line-height: 21px;
   box-sizing: content-box;
   text-align: center;
   margin-right: 10px;
-  width: 116px;
+
   background-color: #ffffff;
 }
 
 .login-item::before {
   content: "";
-  margin-right: 12px;
-  vertical-align: middle;
-  display: inline-block;
+  position: absolute;
+  left: 15px;
+
   width: 20px;
   height: 17px;
   background-image: url("../img/icon-login.svg");
+  background-position: 0 0;
 }
 
 .registration-item {
@@ -647,8 +653,12 @@ a {
   border-radius: 3px;
 }
 
+.feature-list-item a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .feature-section {
-  margin-left: 20px;
+  margin-left: 22px;
 }
 
 .feature-item-materials {
@@ -708,7 +718,7 @@ a {
   align-items: center;
   justify-content: space-between;
   background-color: #f9f5f0;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .popular-button {
@@ -855,6 +865,10 @@ a {
   margin-bottom: 15px;
 }
 
+.title a {
+  color: black;
+}
+
 .catalog-item .discount {
   min-height: 20px;
   margin-top: 13px;
@@ -867,7 +881,7 @@ a {
   width: 90px;
   margin: 4px 41px;
   margin-bottom: 20px;
-  padding: 11px 30px;
+  padding: 11px 40px 11px 25px;
   color: white;
   background: #ee3643;
   border-radius: 3px;
@@ -896,7 +910,7 @@ a {
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  margin-bottom: 70px;
+  margin-bottom: 54px;
 }
 
 .popular-brand-list li {
@@ -905,7 +919,7 @@ a {
   justify-content: center;
   width: 220px;
   height: 144px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: center;
   border: 1px solid #ccc;
 }
@@ -1629,7 +1643,7 @@ button .credit-button:focus .credit {
   width: 27px;
   height: 23px;
   content: "";
-  background-image: url("../img/checkbox-on.png");
+  background-image: url("../img/checkbox-on.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
