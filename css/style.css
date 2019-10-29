@@ -98,7 +98,7 @@ a {
 }
 
 .searchBox {
-  min-width: 220px;
+  min-width: 260px;
   margin: 0;
   padding: 0;
   padding-top: 11px;
@@ -118,7 +118,7 @@ a {
   color: white;
 }
 
-.searchBox:focus{
+.searchBox:focus {
   background-color: #fff;
 }
 
@@ -141,7 +141,7 @@ a {
 }
 
 .order-navigation {
-  width: 500px;
+  width: 450px;
   margin: 0;
   padding: 0;
   align-items: center;
@@ -151,6 +151,8 @@ a {
 }
 
 .order-navigation a {
+  padding-top: 13px;
+  padding-bottom: 10px;
   color: #fff;
 }
 
@@ -158,8 +160,11 @@ a {
   background-color: #212a3a;
 }
 
+.search:hover {
+  background-color: #212a3a;
+}
+
 .order-navigation li {
-  margin-left: 27px;
   display: block;
 }
 
@@ -168,41 +173,31 @@ a {
 }
 
 .icon-bookmark::before {
-  content: "";
+  content: url("../img/icon-bookmark.svg");
   margin-right: 13px;
-  display: inline-block;
   width: 14px;
   height: 16px;
   opacity: 0.3;
-  background-repeat: no-repeat;
-  background-image: url("../img/icon-bookmark.svg");
 }
 
 .icon-basket::before {
-  content: "";
+  content: url("../img/icon-cart.svg");
   margin-right: 13px;
-  display: inline-block;
   width: 18px;
   height: 16px;
   opacity: 0.3;
-  background-repeat: no-repeat;
-  background-image: url("../img/icon-cart.svg");
 }
 
 .icon-basket {
   padding-left: 16px;
 }
 
-.order-button {
+.checkout {
   width: 150px;
-  height: 42px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
   background-color: #63a63e;
-}
-
-.order-button a {
-  display: block;
-  margin-top: 12px;
 }
 
 .login-nagivation {
@@ -1241,7 +1236,7 @@ button .delivery-button:focus.delivery, button .warranty-button:focus .warranty,
   list-style: none;
 }
 
-.footer-links a:hover, .our-email a:hover, .made-by a:hover{
+.footer-links a:hover, .our-email a:hover, .made-by a:hover {
   text-decoration: underline;
 }
 
