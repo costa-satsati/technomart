@@ -648,7 +648,7 @@ a {
   text-align: center;
   width: 135px;
   margin-bottom: 22px;
-  display: inline-block;
+  display: block;
   padding: 0;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -744,7 +744,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 10px;
 }
 
 .popular-product-item {
@@ -774,10 +773,9 @@ a {
 .catalog-item {
   box-sizing: content-box;
   position: relative;
-  display: inline-block;
   width: 218px;
   line-height: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-weight: bold;
   text-align: center;
@@ -947,7 +945,7 @@ a {
 }
 
 .about-service {
-  margin-bottom: 42px;
+  margin-bottom: 18px;
 }
 
 .about-service p {
@@ -1088,7 +1086,7 @@ a {
 }
 
 .delivery p {
-  padding-right: 121px;
+  padding-right: 100px;
 }
 
 .warranty p {
@@ -1216,7 +1214,7 @@ button .credit-button:focus .credit {
 }
 
 .transport-companies-section p {
-  width: 400px;
+  width: 450px;
 }
 
 .transport-companies a {
@@ -1478,7 +1476,7 @@ button .credit-button:focus .credit {
   background-color: white;
 }
 
-.profile-icon {
+.user-name::before {
   position: absolute;
   top: 17px;
   left: 15px;
@@ -1506,14 +1504,14 @@ button .credit-button:focus .credit {
   background-position: 0 0;
 }
 
-.profile-icon:hover,
+.user-name:hover::before,
 .logout:hover,
-.profile-icon:focus,
+.user-name:focus::before,
 .logout:focus {
   opacity: 1;
 }
 
-.profile-icon:active,
+.user-name:active::before,
 .logout:active {
   opacity: 0.3;
 }
@@ -1522,6 +1520,7 @@ button .credit-button:focus .credit {
   display: flex;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .breadcrumbs a {
