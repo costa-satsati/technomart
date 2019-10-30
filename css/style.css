@@ -1255,7 +1255,6 @@ button .credit-button:focus .credit {
 }
 
 .first-footer-wrapper {
-  margin-top: 20px;
   background-color: #32425c;
   padding-bottom: 31px;
 }
@@ -1995,12 +1994,14 @@ form .last-form {
 .catalog-main-section {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 52px;
 }
 
 .pagination {
   display: flex;
   list-style: none;
   padding: 0;
+  padding-top: 24px;
 }
 
 .pagination a {
@@ -2032,8 +2033,8 @@ form .last-form {
 
 .about-drill {
   min-width: 960px;
-  padding-top: 66px;
-  padding-bottom: 68px;
+  padding-top: 38px;
+  padding-bottom: 67px;
   background-color: #f3f7f9;
   background-repeat: repeat;
 }
