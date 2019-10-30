@@ -373,6 +373,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+  padding: 0 25px;
   list-style: none;
   background-color: #32425c;
   border-bottom: 5px solid #293449;
@@ -386,7 +387,7 @@ a {
 
 .main-navigation a {
   display: block;
-  padding: 20px 49px 19px 12px;
+  padding: 19px 30px;
   color: #fff;
 }
 
