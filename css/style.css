@@ -154,9 +154,9 @@ a {
   background-color: #fff;
 }
 
-.searchBox:focus + .searchLabel{
+.searchBox:focus + .searchLabel {
   background-image: url("../img/icon-search-red.svg");
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .user-navigation {
@@ -181,9 +181,15 @@ a {
 }
 
 .order-navigation a {
+  display: block;
+  text-align: center;
   padding-top: 11px;
   padding-bottom: 12px;
   color: #fff;
+}
+
+.order-navigation span {
+  padding-left: 16px;
 }
 
 .icon-bookmark:hover,
@@ -209,31 +215,30 @@ a {
   opacity: 1;
 }
 
-.order-navigation li {
-  display: block;
-}
-
 .icon-bookmark {
   position: relative;
-  padding-left: 40px;
-  padding-right: 20px;
+  min-width: 150px;
 }
 
 .icon-basket {
   position: relative;
-  padding-left: 58px;
-  padding-right: 30px;
+  min-width: 150px;
+}
+.checkout {
+  min-width: 150px;
+
+  background-color: #63a63e;
 }
 
-.basket-notempty{
+.basket-notempty {
   background-color: #ee3643;
 }
 
 .icon-bookmark::before {
   content: "";
   position: absolute;
-  top: 12px;
-  left: 13px;
+
+  left: 17px;
 
   width: 14px;
   height: 16px;
@@ -245,10 +250,8 @@ a {
 
 .icon-basket::before {
   content: "";
-  content: "";
   position: absolute;
-  top: 12px;
-  left: 26px;
+  left: 19px;
 
   width: 18px;
   height: 16px;
@@ -257,14 +260,6 @@ a {
   background-image: url("../img/icon-cart.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-}
-
-.checkout {
-  width: 150px;
-  padding-left: 21px;
-  padding-right: 21px;
-  text-align: center;
-  background-color: #63a63e;
 }
 
 .login-nagivation {
@@ -288,13 +283,13 @@ a {
 }
 
 .header-contact {
-  margin-left: 0px;
+  margin-left: 20px;
 }
 
 .tel-header {
   position: relative;
   display: block;
-  padding: 10px 48px 10px 72px;
+  padding: 9px 48px 9px 72px;
   margin-bottom: 3px;
   border: 3px solid #fff;
   font-size: 21px;
@@ -323,6 +318,8 @@ a {
 }
 
 .user {
+  min-width: 299px;
+  justify-content: flex-end;
   padding: 0;
   margin: 0;
   display: flex;
@@ -1005,7 +1002,7 @@ a {
   width: 300px;
   height: 300px;
   content: "";
-  background-image: url("../img/line.png");
+  background-image: url("../img/shadow-line.png");
   background-repeat: no-repeat;
 }
 
