@@ -356,6 +356,7 @@ a {
 
   width: 20px;
   height: 17px;
+  opacity: 0.3;
   background-image: url("../img/icon-login.svg");
   background-position: 0 0;
 }
@@ -367,6 +368,18 @@ a {
   text-align: center;
   width: 150px;
   background-color: #ffffff;
+}
+
+.login-item:hover,
+.login-item:focus,
+.registration-item:hover,
+.registration-item:focus {
+  color: #ee3643;
+}
+
+.login-item:hover::before,
+.login-item:focus::before {
+  opacity: 1;
 }
 
 .main-navigation {
@@ -1518,17 +1531,33 @@ button .credit-button:focus .credit {
 }
 
 .breadcrumbs a {
+  display: block;
+  position: relative;
   font-family: "PT Sans ", "Arial", sans-serif;
   font-size: 12px;
   font-weight: 200;
   line-height: 18px;
   color: #000;
+  padding: 20px 0;
+  padding-left: 38px;
 }
 
-.breadcrumbs li {
-  margin: 0;
-  padding: 20px 10px;
+.breadcrumbs a:not(.home-icon)::before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 12px;
+  width: 8px;
+  height: 12px;
+  background-image: url("../img/icon-right-small.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
+
+a.home-icon {
+  padding-left: 0;
+} 
+
 
 .catalog-heading {
   background-color: #f4f7f9;
