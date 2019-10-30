@@ -121,8 +121,7 @@ a {
   background-color: #293449;
 }
 
-.search::before {
-  content: "";
+.searchLabel {
   position: absolute;
   top: 12px;
   left: 16px;
@@ -155,13 +154,9 @@ a {
   background-color: #fff;
 }
 
-.searchBox:focus {
-  padding-left: 48px;
-  background-color: white;
+.searchBox:focus + .searchLabel{
   background-image: url("../img/icon-search-red.svg");
-  background-repeat: no-repeat;
-  background-position-x: 17px;
-  background-position-y: 14px;
+  opacity: 1.0;
 }
 
 .user-navigation {
