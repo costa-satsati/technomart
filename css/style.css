@@ -390,7 +390,7 @@ a {
 }
 
 .main-navigation-wrapper {
-  padding-top: 47px;
+  padding-top: 49px;
   padding-bottom: 60px;
   background-color: #f4f7f9;
 }
@@ -516,7 +516,7 @@ a {
 
 .slides label {
   position: relative;
-  background: black;
+  /*background: black;*/
   z-index: 10;
   top: 153px;
   left: 377px;
@@ -867,8 +867,8 @@ a {
   color: black;
   min-height: 40px;
   padding: 0 25px;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-top: 12px;
+  margin-bottom: 13px;
 }
 
 .title a {
@@ -878,6 +878,7 @@ a {
 .catalog-item .discount {
   min-height: 20px;
   margin-top: 13px;
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #999;
   text-decoration: line-through;
 }
@@ -888,6 +889,7 @@ a {
   margin: 4px 41px;
   margin-bottom: 20px;
   padding: 11px 40px 11px 25px;
+  font-family: "PT Sans", "Arial", sans-serif;
   color: white;
   background: #ee3643;
   border-radius: 3px;
@@ -949,7 +951,7 @@ a {
 }
 
 .about-service {
-  margin-bottom: 42px;
+  margin-bottom: 20px;
 }
 
 .about-service p {
@@ -1552,7 +1554,7 @@ button .credit-button:focus .credit {
 
 a.home-icon {
   padding-left: 0;
-} 
+}
 
 
 .catalog-heading {
@@ -1996,7 +1998,7 @@ form .last-form {
 
 .pagination-wrapper {
   display: flex;
-  padding-top: 24px;
+  padding-top: 32px;
 }
 
 .pagination {
@@ -2041,7 +2043,7 @@ a.next-page {
 
 .about-drill {
   min-width: 960px;
-  padding-top: 38px;
+  padding-top: 43px;
   padding-bottom: 67px;
   background-color: #f3f7f9;
   background-repeat: repeat;
