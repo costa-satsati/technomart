@@ -1551,8 +1551,20 @@ button .credit-button:focus .credit {
 }
 
 a.home-icon {
+  position: relative;
   padding-left: 0;
 } 
+
+a.home-icon::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  width: 15px;
+  height: 12px;
+  background-image: url("../img/icon-home.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
 
 
 .catalog-heading {
